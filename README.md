@@ -3,6 +3,8 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1129316)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Getting Started with DevExtreme NumberBox
+# DevExtreme NumberBox - Getting Started 
 
-This repository stores the source code for the following tutorial: [Getting Started with NumberBox](https://js.devexpress.com/Documentation/Guide/UI_Components/NumberBox/Getting_Started_with_NumberBox/).
+This repository stores the source code examples for the NumberBox UI component that displays a numeric value and allows a user to modify it by typing in a value, incrementing or decrementing it using the spin buttons, keyboard or mouse. Read more in the [Getting Started with NumberBox](https://js.devexpress.com/Documentation/Guide/UI_Components/NumberBox/Getting_Started_with_NumberBox/) tutorial.
+
+<div align="center"><img src="./gs_numberbox.png" /></div>
