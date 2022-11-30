@@ -7,4 +7,22 @@
 
 This repository stores the source code examples for the NumberBox UI component that displays a numeric value and allows a user to modify it by typing in a value, incrementing or decrementing it using the spin buttons, keyboard or mouse. Read more in the [Getting Started with NumberBox](https://js.devexpress.com/Documentation/Guide/UI_Components/NumberBox/Getting_Started_with_NumberBox/) tutorial.
 
-<div align="center"><img src="./gs_numberbox.png" /></div>
+<div align="center"><img src="./numberbox.png" /></div>
+
+## Files to Review
+
+- **Angular**
+    - [app.component.html](Angular/src/app/app.component.html)
+    - [app.component.ts](Angular/src/app/app.component.ts)
+- **jQuery**
+    - [index.js](jQuery/src/index.js)
+- **React**
+    - [App.js](React/src/App.js)
+- **Vue**
+    - [App.vue](Vue/src/App.vue)
+
+## Documentation
+
+- [Getting Started with NumberBox](https://js.devexpress.com/Documentation/Guide/UI_Components/NumberBox/Getting_Started_with_NumberBox/)
+
+- [NumberBox - API Reference](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxNumberBox/)
