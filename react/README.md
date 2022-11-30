@@ -1,6 +1,6 @@
-# Getting Started with DevExtreme NumberBox
+# DevExtreme React NumberBox - Getting Started 
 
-This repository stores the source code for the following tutorial: [Getting Started with NumberBox](https://js.devexpress.com/Documentation/Guide/UI_Components/NumberBox/Getting_Started_with_NumberBox/).
+This repository stores the code examples of the React NumberBox component for the [Getting Started with NumberBox](https://js.devexpress.com/Documentation/Guide/UI_Components/NumberBox/Getting_Started_with_NumberBox/) tutorial. The component allows users to enter a value and increment or decrement it with the spin buttons, keyboard, or mouse wheel.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,6 +1,6 @@
-# Getting Started with DevExtreme jQuery NumberBox
+# DevExtreme jQuery NumberBox - Getting Started 
 
-This repository stores jQuery source code for the [Getting Started with NumberBox](https://js.devexpress.com/Documentation/Guide/UI_Components/NumberBox/Getting_Started_with_NumberBox/) tutorial.
+This repository stores the code examples of the jQuery NumberBox component for the [Getting Started with NumberBox](https://js.devexpress.com/Documentation/Guide/UI_Components/NumberBox/Getting_Started_with_NumberBox/) tutorial. The component allows users to enter a value and increment or decrement it with the spin buttons, keyboard, or mouse wheel.
 
 ## Installation
 
@@ -21,6 +21,4 @@ http://localhost:3000/src/index.html
 
 You can learn more about jQuery API in the [jQuery documentation](https://api.jquery.com/).
 
-To get more help on DevExtreme submit an issue on [GitHub](https://github.com/DevExpress/devextreme/issues) or [Support Center](https://www.devexpress.com/Support/Center/Question/Create)
-
-
+To get more help on DevExtreme, submit an issue on [GitHub](https://github.com/DevExpress/devextreme/issues) or [Support Center](https://www.devexpress.com/Support/Center/Question/Create).
