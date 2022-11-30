@@ -2,8 +2,6 @@
 
 This repository stores the source code examples for the Angular NumberBox UI component that displays a numeric value and allows a user to modify it by typing in a value, incrementing or decrementing it using the spin buttons, keyboard or mouse. Read more in the [Getting Started with NumberBox](https://js.devexpress.com/Documentation/Guide/UI_Components/NumberBox/Getting_Started_with_NumberBox/) tutorial.
 
-<div align="center"><img src="../gs_numberbox.png" /></div>
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
 ## Development server
