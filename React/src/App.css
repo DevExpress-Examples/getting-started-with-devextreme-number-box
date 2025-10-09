@@ -1,4 +1,11 @@
-.main {
+#app-container {
+  width: 900px;
+  position: relative;
   margin: 50px;
-  width: 90vw;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+#number-box {
+  margin-top: 20px;
 }

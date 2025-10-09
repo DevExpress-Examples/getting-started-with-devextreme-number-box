@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { ClickEvent } from 'devextreme/ui/button';
+import notify from 'devextreme/ui/notify';
+import { DxNumberBoxTypes } from 'devextreme-angular/ui/number-box';
 
 @Component({
   selector: 'app-root',
@@ -7,14 +8,17 @@ import { ClickEvent } from 'devextreme/ui/button';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Angular';
+  title = 'Getting Started with DevExtreme Angular NumberBox';
 
-  counter = 0;
+  initialValue = 261991;
 
-  buttonText = 'Click count: 0';
-
-  onClick(e: ClickEvent): void {
-    this.counter++;
-    this.buttonText = `Click count: ${this.counter}`;
+  onValueChanged(e: DxNumberBoxTypes.ValueChangedEvent): void {
+    if (e.value) {
+      notify(
+        `The sum is $${e.value}`,
+        'info',
+        2000,
+      );
+    }
   }
 }

@@ -1,3 +1,15 @@
-<div class="default-style">
-  <dx-button [text]="buttonText" (onClick)="onClick($event)"></dx-button>
+<div id="app-container">
+  <dx-number-box
+    label="Enter a sum in dollars"
+    labelMode="floating"
+    [value]="initialValue"
+    format="$ #,##0.##"
+    [min]="0"
+    [max]="1000000"
+    [step]="5"
+    [showSpinButtons]="true"
+    [showClearButton]="true"
+    (onValueChanged)="onValueChanged($event)"
+  >
+  </dx-number-box>
 </div>
