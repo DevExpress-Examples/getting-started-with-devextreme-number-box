@@ -2,11 +2,13 @@ import { Component } from '@angular/core';
 import notify from 'devextreme/ui/notify';
 import { DxNumberBoxTypes } from 'devextreme-angular/ui/number-box';
 
+import { DxNumberBoxModule } from 'devextreme-angular/ui/number-box';
+
 @Component({
     selector: 'app-root',
+    imports: [DxNumberBoxModule],
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
-    standalone: false
 })
 export class AppComponent {
   title = 'Getting Started with DevExtreme Angular NumberBox';
