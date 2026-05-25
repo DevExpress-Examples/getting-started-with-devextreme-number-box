@@ -29,7 +29,7 @@ const onValueChanged = (e: DxNumberBoxTypes.ValueChangedEvent): void => {
       :step="5"
       :show-spin-buttons="true"
       :show-clear-button="true"
-      @onValueChanged="onValueChanged"
+      @value-changed="onValueChanged"
     />
   </div>
 </template>
