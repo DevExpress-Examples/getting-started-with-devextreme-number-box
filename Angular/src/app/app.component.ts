@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import notify from 'devextreme/ui/notify';
 import { DxNumberBoxTypes } from 'devextreme-angular/ui/number-box';
 
@@ -8,6 +8,7 @@ import { DxNumberBoxModule } from 'devextreme-angular/ui/number-box';
     selector: 'app-root',
     imports: [DxNumberBoxModule],
     templateUrl: './app.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
